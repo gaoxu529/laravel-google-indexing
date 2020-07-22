@@ -1,6 +1,6 @@
 <?php
 
-namespace Famdirksen\LaravelGoogleIndexing;
+namespace risingsun\LaravelGoogleIndexing;
 
 use Google_Client;
 use Google_Service_Indexing;

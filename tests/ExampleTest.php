@@ -1,6 +1,6 @@
 <?php
 
-namespace Famdirksen\LaravelGoogleIndexing\Tests;
+namespace risingsun\LaravelGoogleIndexing\Tests;
 
 use PHPUnit\Framework\TestCase;
 

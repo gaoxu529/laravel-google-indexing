@@ -1,23 +1,23 @@
 {
-    "name": "famdirksen/laravel-google-indexing",
+    "name": "risingsun/laravel-google-indexing",
     "description": "Index Laravel website in Google via Indexing API",
     "keywords": [
-        "famdirksen",
+        "risingsun",
         "laravel",
         "laravel-google-indexing"
     ],
-    "homepage": "https://github.com/famdirksen/laravel-google-indexing",
+    "homepage": "https://github.com/gaoxu529/laravel-google-indexing",
     "license": "MIT",
     "authors": [
         {
-            "name": "Robin Dirksen",
-            "email": "robin@famdirksen.nl",
-            "homepage": "https://famdirksen.nl",
+            "name": "gaoxu",
+            "email": "gaoxu529@126.com",
+            "homepage": "https://www.bjestrata.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "google/apiclient": "^2.0"
     },
     "require-dev": {
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Famdirksen\\LaravelGoogleIndexing\\": "src"
+            "risingsun\\LaravelGoogleIndexing\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Famdirksen\\LaravelGoogleIndexing\\Tests\\": "tests"
+            "risingsun\\LaravelGoogleIndexing\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Famdirksen\\LaravelGoogleIndexing\\ServiceProvider\\LaravelGoogleIndexingServiceProvider"
+                "risingsun\\LaravelGoogleIndexing\\ServiceProvider\\LaravelGoogleIndexingServiceProvider"
             ],
             "aliases": {
-                "LaravelGoogleIndexing": "Famdirksen\\LaravelGoogleIndexing\\Facade\\LaravelGoogleIndexingFacade"
+                "LaravelGoogleIndexing": "risingsun\\LaravelGoogleIndexing\\Facade\\LaravelGoogleIndexingFacade"
             }
         }
     }

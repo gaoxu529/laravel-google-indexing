@@ -1,6 +1,6 @@
 <?php
 
-namespace Famdirksen\LaravelGoogleIndexing\Facade;
+namespace risingsun\LaravelGoogleIndexing\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Famdirksen\LaravelGoogleIndexing\ServiceProvider;
+namespace risingsun\LaravelGoogleIndexing\ServiceProvider;
 
 use Famdirksen\LaravelGoogleIndexing\LaravelGoogleIndexing;
 use Illuminate\Support\ServiceProvider;
