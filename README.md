@@ -1,10 +1,5 @@
 # Index pages in Google
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/famdirksen/laravel-google-indexing.svg?style=flat-square)](https://packagist.org/packages/famdirksen/laravel-google-indexing)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/famdirksen/laravel-google-indexing/run-tests?label=tests)](https://github.com/famdirksen/laravel-google-indexing/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Quality Score](https://img.shields.io/scrutinizer/g/famdirksen/laravel-google-indexing.svg?style=flat-square)](https://scrutinizer-ci.com/g/famdirksen/laravel-google-indexing)
-[![Total Downloads](https://img.shields.io/packagist/dt/famdirksen/laravel-google-indexing.svg?style=flat-square)](https://packagist.org/packages/famdirksen/laravel-google-indexing)
-
 **WORK IN PROGRESS, some functionalities may be changed in the future.**
 
 Request a page to be indexed by Google using the [Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart).
@@ -16,7 +11,7 @@ Please, take a note at the allowed pages that can be index using this API at htt
 You can install the package via composer:
 
 ```bash
-composer require famdirksen/laravel-google-indexing
+composer require risingsun/laravel-google-indexing
 ```
 
 Next you have to follow the setup instructions from Google, this can be found here [Google Indexing API documentation](https://developers.google.com/search/apis/indexing-api/v3/prereqs).
@@ -70,12 +65,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email info@famdirksen.nl instead of using the issue tracker.
+If you discover any security related issues, please email gaoxu529@126.com instead of using the issue tracker.
 
 ## Credits
 
-- [Robin Dirksen](https://github.com/robindirksen1) ([personal site](https://robindirksen.nl))
-- [Famdirksen](https://famdirksen.nl)
+- [Robin Dirksen](https://github.com/gaoxu529) ([personal site](https://www.bjestrata.com))
+- [risingsun](https://www.bjestrata.com)
 - [All Contributors](../../contributors)
 
 ## License
